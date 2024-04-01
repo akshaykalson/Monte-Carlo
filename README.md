@@ -1,2 +1,3 @@
-# Monte-Carlo
-Python program implementing parallel k-means and Monte Carlo simulations, optimizing performance with multiprocessing
+# Parallel Computing with Python
+
+This repository contains Python code for parallel computing tasks, specifically implementing parallel k-means clustering and parallel Monte Carlo simulations for estimating the value of π. Both implementations utilize the `multiprocessing` module for parallelism. Contents include `kmeans.py` for parallel k-means clustering, `problem2_2.py` for extending a Monte Carlo simulation to use an accuracy goal for estimating π, `README.md` providing an overview of the repository, `requirements.txt` listing required Python packages, and `LICENSE` for licensing information. For the parallel Monte Carlo simulation, run `python problem2_2.py`, modifying parameters (`accuracy_goal`, `num_processes`) as needed. This project is licensed under the MIT License.
